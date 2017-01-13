@@ -1,4 +1,5 @@
 module.exports = {
+  mode: "get",
   route: "/receive/:server/:channel/",
   router: function(Bot) {
     return function(req, res) {

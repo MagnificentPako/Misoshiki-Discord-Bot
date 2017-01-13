@@ -1,4 +1,5 @@
 module.exports = {
+  mode: "get",
   route: "/servers",
   router: function(Bot) {
     return function(req, res) {
