@@ -17,6 +17,8 @@ bot.on("ready", () => {
   bot.editStatus("online", {name: "some weeb shit"});
 });
 
+bot.on("error", (error) => {});
+
 //Commands
 bot.registerCommand("ping", "Pong!", {
   description: "A simple ping command",
